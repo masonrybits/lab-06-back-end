@@ -19,4 +19,26 @@ JavaScript is used to build the app. npm dotenv and express packages are also us
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
+
+
+Number and name of feature: repo set up
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 9:30
+
+Finish time: 10:10
+
+Actual time needed to complete: 40 mins
+
+_____________________________
+
+Number and name of feature: locations
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 10:10
+
+Finish time: 10:10
+
+Actual time needed to complete: 40 mins
