@@ -39,6 +39,32 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 10:10
 
-Finish time: 10:10
+Finish time: 11:00
 
-Actual time needed to complete: 40 mins
+Actual time needed to complete: 50 mins
+
+_____________________________
+
+Number and name of feature: weather
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 11:00
+
+Finish time: 12:00
+
+Actual time needed to complete: 1 hour
+
+
+_____________________________
+
+Number and name of feature: errors
+
+Estimate of time needed to complete: 10 minutes
+
+Start time: 12:00
+
+Finish time: 12:10
+
+Actual time needed to complete: 10 minutes
+
