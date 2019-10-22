@@ -22,13 +22,12 @@ app.get('/location', (request, response) => {
 
     const locationData = searchLatToLong(city);
 
-    console.log(locationData);
     response.send(locationData);
   }
   catch (error) {
     console.error(error); // will turn the error message red if the environment supports it
 
-    response.status(500).send('so sorry, something is not working on our end');
+    response.status(500).send('Sorry, something went wrong!');
   }
 });
 
@@ -38,13 +37,12 @@ app.get('/weather', (request, response) => {
 
     const weatherData = searchWeather(city);
 
-    console.log(weatherData);
     response.send(weatherData);
   }
   catch (error) {
     console.error(error); // will turn the error message red if the environment supports it
 
-    response.status(500).send('so sorry, something is not working on our end');
+    response.status(500).send('Sorry, something went wrong!');
   }
 });
 
@@ -54,7 +52,6 @@ app.get('*', (request, response) => {
 
 function searchLatToLong(location) {
   const geoData = require('./data/geo.json');
-  console.log(geoData);
   const locationObject = new Location(location, geoData);
 
   return locationObject;
@@ -69,7 +66,6 @@ function Location(city, geoData) {
 
 function searchWeather(city) {
   const weatherData = require('./data/darksky.json');
-  console.log(weatherData);
   const weatherArr = [];
   for (let i=0; i < weatherData.daily.data.length; i++) {
     const weatherObject = new Weather(weatherData, i);
