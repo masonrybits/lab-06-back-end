@@ -76,7 +76,7 @@ function searchWeather(city) {
 
 function Weather(weatherData, i) {
   this.forecast = weatherData.daily.data[i].summary;
-  let date = new Date(weatherData.daily.data[i].time);
+  let date = new Date(weatherData.daily.data[i].time*1000);
   this.time = date.toDateString();
 }
 
